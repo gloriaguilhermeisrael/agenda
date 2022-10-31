@@ -2,6 +2,7 @@
 #include <locale.h>
 #include <string.h>
 #include <stdlib.h>
+#include "funções.h"
 //glguis22.2
 typedef struct{
 	char nome[30];
