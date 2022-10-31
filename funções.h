@@ -14,7 +14,7 @@ typedef struct{
 		char rua[20];
 		int numero;
 		char complemento[30];
-		char bairro;
+		char bairro[15];
 		char cep[10];
 		char cidade[15];
 		char estado[20];
