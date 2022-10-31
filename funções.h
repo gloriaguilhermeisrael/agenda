@@ -1,5 +1,11 @@
-#ifndef funções.h
-#define funções.h
+#ifndef funcoes 
+#define funcoes
+
+char primeiroNome(char nome);
+int mesAniversario(int mes);
+void adicionarPessoa();
+int retirarPessoa();
+void telaInicial();
 
 typedef struct{
 	char nome[30];
@@ -24,11 +30,4 @@ typedef struct{
 		int ano;
 	}data;
 }dados;
-
-PrimeiroNome(char nome);
-mesAniversario(int mes);
-adicionarPessoa();
-retirarPessoa();
-telaInicial();
-
 #endif
