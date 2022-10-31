@@ -1,11 +1,15 @@
-#include "funções.h"
-PrimeiroNome(char nome){
+#include "funcoes.h"
+#include <stdio.h>
+#include <locale.h>
+#include <string.h>
+#include <stdlib.h>
+char primeiroNome(char nome){
 	
 }
-mesAniversario(int mes){
+int mesAniversario(int mes){
 	
 }
-adicionarPessoa(){
+void adicionarPessoa(){
 	int i,j;
 	dados agenda[100];
 	system("cls");
@@ -17,11 +21,11 @@ adicionarPessoa(){
 
 	}
 }
-retirarPessoa(){
+int retirarPessoa(){
 	system("cls");
 	printf("Remover contato:\n");
 }
-telaInicial(){
+void telaInicial(){
 	int resp;
 	
 	printf("Agenda\n\n");
