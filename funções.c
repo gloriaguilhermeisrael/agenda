@@ -1,3 +1,4 @@
+#include "funções.h"
 PrimeiroNome(char nome){
 	
 }
